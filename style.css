@@ -1,0 +1,159 @@
+:root{
+    --primary: #4E473A;
+    --secondary: #1E1C14;
+    --see: #4C3426;
+    --se8: #847E77;
+    --se6: #C5C0B6;
+    --dr: #EFEFEF;
+    --text: #b6895b;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    color: #7f5539;
+}
+
+
+i{
+    color: #fff;
+}
+
+nav{
+    background-color: #bc6b25a4;
+    color: #1E1C14;
+}
+
+nav .navbar-brand{
+    font-weight: 900;
+    font-style: italic;
+}
+
+.navbar ul li a{
+    font-weight: 600;
+    color: #e5e5e5;
+}
+
+.navbar ul li .active{
+    font-weight: 600;
+    color: #e5e5e5;
+}
+
+
+
+.navbar ul li a:hover{
+    color: #ffffff;
+    font-weight: 700;
+    transition: all .3s ease-in;
+}
+
+.hero{
+   padding-top: 10rem;
+   background-image: url(asset/bg/cafe2-transformed.jpeg);
+   background-position: center;
+   height: 80vh;
+   background-size: cover;
+}
+
+.hero .col-md-6{
+    padding: 15px 19px;
+    color: #1E1C14;
+    background-color: #efefef9b;
+    border-radius: 30px;
+}
+
+.hero .col-md-6 .p{
+    font-weight: 700;
+}
+
+.about{
+    background-color: #dda15e;
+}
+
+.about h2{
+    font-weight: 900;
+}
+
+
+.menu{
+    padding-top: 3rem;
+    background-color: #fb8500;
+    padding-bottom: 4rem;
+}
+
+.menu h2{
+    font-weight: 900;
+}
+
+.menu h1{
+    padding-top: 2rem;
+    color: #1E1C14;
+}
+
+.menu .card{
+    /* background-color: #fefae0c0; */
+    background-color: #dda25eb3;
+}
+
+.menu .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu .card .btn{
+    background-color: #9c6644; 
+    color: #fff;
+}
+
+.contac{
+    background-image: url(asset/bg/cafe2-transformed.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contac .container{
+    background-color: #efefef71;
+    padding: 13px 40px;
+    border-radius: 20px;
+}
+
+.contac iframe{
+    border-radius: 20px;
+}
+
+.contac .container form label{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #7f5539;
+}
+
+footer .container .btn{
+    margin-top: 20px;
+    background-color: #dda15e; 
+    color: #fff;
+    padding: 2rem 3rem;
+}
+
+footer .container .btn:hover{
+    box-shadow: 13px 14px 2px 1px rgba(0,0,0,0.51);
+    transition: all .3s ease-in;
+}
+
+footer .container h6{
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    footer .container .btn{
+        padding: 10px 14px;
+        margin-bottom: 12px;
+        gap: 12px;
+    }
+}
